@@ -1,0 +1,236 @@
+@media (max-width: 1400px) {
+  
+  .container {
+    max-width: 1120px;  
+  }
+  
+  .instagram {
+    display: none;
+  }
+
+  .nav {
+    margin-left: 0;
+    margin-right: 0;
+    flex-basis: 50%;
+    
+    &__link {
+      margin-right: 0;
+    }
+  }
+
+  .contacts {
+    &__button {
+      display: none;
+    }
+
+    &__phone {
+      margin-right: 0;
+      font-size: 16px;
+    }
+  } 
+}
+
+@media (max-width: 1200px) {
+
+  .container {
+    max-width: 900px;  
+  }
+
+  .hero {
+    &__content {
+      padding-top: 150px;
+      padding-bottom: 168px;
+    }
+  }
+
+  .scroll-down {  
+    min-width: 220px;
+    min-height: 78px;
+      
+    &__text {
+      margin-right: 14px;
+    }
+      
+    &__image {
+      margin-right: 0;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  
+  .container {
+    width: 100%;
+    padding: 0 30px;
+  }
+  
+
+  .header {
+    &__menu {
+      padding: 0 20px;
+    }
+  }
+
+  .menu {
+    &__logo {
+      font-size: 16px;
+    }
+  }
+
+  .contacts {
+
+    &__phone {
+      font-size: 16px;
+      color: $light;
+      text-decoration: none;
+    }
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .scroll-down {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .menu {
+    &__logo {
+      font-size: 14px;
+    }
+  }
+
+  .contacts {
+    &__phone {
+      font-size: 14px;
+    }
+  }
+
+  .hero {
+
+    &__content {
+      padding-top: 120px;
+      padding-bottom: 138px;
+    }
+
+    &__title {
+      max-width: 500px;
+      font-size: 30px;
+      line-height: 40px;
+    }
+
+    &__text {
+      max-width: 450px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+      font-size: 20px;
+      line-height: 25px;
+    } 
+
+    &__button {
+    min-width: 180px;
+    padding: 16px 0;
+    margin-right: 17px;
+    font-size: 13px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+
+  .header {
+    &__menu {
+      padding: 0;
+    }
+  }
+
+  .menu {
+    &__logo {
+      font-size: 12px;
+    }
+  }
+
+  .contacts {
+    &__phone {
+      font-size: 12px;
+    }
+  }
+
+  .hero {
+    &__content {
+      padding-left: 15px;
+      padding-top: 90px;
+      padding-bottom: 108px;
+    }
+
+    &__title {
+      width: 320px;
+      font-size: 26px;
+      line-height: 35px;
+    }
+
+    &__text {
+      max-width: 370px;
+      font-size: 20px;
+    }
+
+    &__buttons {
+      max-width: 380px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__button {
+      margin-right: 0;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+
+  .header {
+  padding: 19px 0 18px 0;
+  }  
+
+  .container {
+    padding: 0 18px;
+  }
+
+  .hero {
+    &__content {
+      padding: 84px 0 35px 0;
+    }
+
+    &__title {
+      max-width: 100%;
+      font-size: 23px;
+      line-height: 30px;
+    }
+
+    &__text {
+      width: 100%;
+      margin-top: 13px;
+      margin-bottom: 32px;
+      font-size: 18px;
+      line-height: 24.45px;
+    }
+
+    &__buttons {
+      flex-wrap: wrap;
+    }
+
+    &__button {
+      width: 100%;
+      padding: 18px 0;
+      margin-bottom: 26px;
+    }
+  }
+
+  .button_outline {
+    padding: 17px 0;
+  }
+}
+
