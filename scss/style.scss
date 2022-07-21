@@ -1,0 +1,21 @@
+// Подключил шрифты
+@import "./fonts";
+
+// Подключил normalize
+@import "./normalize";
+
+// Подключил переменные
+@import "./variables";
+
+// Подключил основные настройки
+@import "./settings";
+
+// Подключил стили для header 
+@import "./blocks/header";
+
+// Подключил стили для секции hero
+@import "./blocks/hero";
+
+// Подключаем медиа-запросы
+@import "./media";
+
